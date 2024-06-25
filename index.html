@@ -13,10 +13,10 @@
 
         <div>
             <ul class="nav-links">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#experiencia">Experiências</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiências</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </div>
     </nav>
@@ -30,13 +30,35 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#sobre" oneclick="ToggleMenu()">Sobre</a></li>
-                <li><a href="#experiencia" oneclick="ToggleMenu()">Experiências</a></li>
-                <li><a href="#projetos" oneclick="ToggleMenu()">Projetos</a></li>
-                <li><a href="#contato" oneclick="ToggleMenu()">Contato</a></li>
+                <li><a href="#about" oneclick="ToggleMenu()">Sobre</a></li>
+                <li><a href="#experience" oneclick="ToggleMenu()">Experiências</a></li>
+                <li><a href="#projects" oneclick="ToggleMenu()">Projetos</a></li>
+                <li><a href="#contact" oneclick="ToggleMenu()">Contato</a></li>
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="profile-image">
+            <img src="./assets/sobre-profile.jpg="Aluizio profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Aluízio Oliveira</h1>
+            <p class="section_text_p2">FrontEnd Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img
+                    src="./assets/linkedin.png"
+                    alt="My Linkedin profile"
+                    class="icon"
+                    onclick="location.href='https://linkedin.com/'"
+                />
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
